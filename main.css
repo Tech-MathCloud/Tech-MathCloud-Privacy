@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.wrapper{min-width:1540px;}
+
+/* header */
+header{display:flex; justify-content: space-between; position:fixed; top:0; left:0; width:100%; padding:15px 4.16666vw; background:#353535; overflow:hidden; z-index:50;}
+header .logo{height:25px; margin:7px 0; margin-bottom: 30px;}
+header .logo a{display:block; height:25px;}
+header .gnb li{float:left;}
+header .gnb li+li{margin-left:5.208333vw;}
+header .gnb li a{display:block; padding:10px 0; font-size:17px; color:#a8a8a8; letter-spacing: -0.035em;}
+header .gnb li a.on{font-weight:700; color:#fff;}
+header .util{margin-left:5vw;}
+header .util li{float:left;}
+header .util li+li{margin-left:1.041666vw;}
+header .util li a{display:block; padding:10px; border:1px solid #fff; border-radius:20px; font-size:17px; color:#fff; letter-spacing: -0.035em;}
+header .side{display:flex;}
